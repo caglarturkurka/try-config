@@ -1,7 +1,8 @@
 eureka:
- instance:
-   instance-id: ${spring.application.name}:${random.int}
+  instance:
+    instance-id: ${spring.application.name}:${random.int}
   client:
     serviceUrl:
       defaultZone: https://discovery-server-caglar.cfapps.io/eureka/
+
 
